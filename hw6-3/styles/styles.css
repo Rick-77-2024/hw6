@@ -8,18 +8,19 @@ body{
     height: 71vh;
 }
 
-/*--------login------*/
 .login{
-    height: 80%;
-    border: 1px solid rgba(128, 128, 128, 0.4);
+    border: 1px solid rgba(139, 130, 130, 0.4);
+}
+p {
+    margin-top: 50px;
 }
 
 .login, form{
-    width: 100%;
+    width: 400px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .login img{
@@ -29,7 +30,7 @@ body{
 input[type="text"],
 input[type="password"]{
     width: 78%;
-    padding: 3% 1%;
+    padding: 10px 10px;
     text-overflow: ellipsis;
     margin-top: 10px;
     box-sizing: border-box;
@@ -47,7 +48,13 @@ input[type="submit"]{
 
 form span{
     margin: 10px 0;
-    color: gray;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.face-svg {
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 form p svg{
@@ -65,14 +72,12 @@ form a{
     margin-bottom: 15px;
 }
 
-/*--------registration ------------*/
 .registration{
-    height: 17%;
-    margin-top: 3%;
-    width: 100%;
+    width: 400px;
+    height: 115px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
     border: 1px solid rgba(128, 128, 128, 0.4);
 }
 
