@@ -1,15 +1,11 @@
-body{
+body {
     font-family: Arial, sans-serif;
     background-color: #3ca592;
     margin: 0;
 
 }
 
-p {
-    font-size: 24px;
-}
-
-.form{
+.form {
     margin: 25% auto;
     width: 40vw;
     background-color: #ffffff;
@@ -17,15 +13,19 @@ p {
     border: 4px solid #ffffff;
 }
 
-login-in div {
+.head-login {
+    display: flex;
     background-color: #e9f5ff;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
 
-.login-in {
-    background-color: #e9f5ff;
+p {
+    font-size: 24px;
 }
 
-.login{
+.login {
     width: 100%;
     height: 338px;
     display: flex;
@@ -34,7 +34,7 @@ login-in div {
 }
 
 input[type="text"],
-input[type="password"]{
+input[type="password"] {
     width: 100%;
     padding: 3% 1%;
     text-overflow: ellipsis;
@@ -42,33 +42,23 @@ input[type="password"]{
     box-sizing: border-box;
 }
 
-input[type="submit"]{
-    width: 23%;
+input[type="submit"] {
+    width: 28%;
     height: 35px;
     background-color: #d8e9f7;
     color: black;
     border-radius: 13px;
     margin-top: 25px;
-    margin-left: 53%;
+    margin-left: 85px;
 }
 
-form span{
-    margin: 10px 0;
-    color: gray;
+.bottom {
+    display: flex;
 }
 
-form p{
-    margin-bottom: -5px;
+.remember {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
-
-form p{
-    color: #155694;
-    margin: 15px 0;
-}
-
-form a{
-    color: #155694;
-    text-decoration: none;
-    margin-bottom: 15px;
-}
-
