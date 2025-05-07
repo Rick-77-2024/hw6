@@ -11,7 +11,8 @@ body{
 .login{
     border: 1px solid rgba(139, 130, 130, 0.4);
 }
-p {
+
+h1 {
     margin-top: 50px;
 }
 
@@ -20,7 +21,6 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 input[type="text"],
@@ -40,12 +40,13 @@ input[type="submit"]{
     border-radius: 8px;
     border: none;
     margin-top: 20px;
+    margin-bottom: 24px;
 }
 
-form span{
+span{
     margin: 10px 0;
     font-weight: 600;
-    color: darkblue;
+    color: #878793;
 }
 
 form a{
@@ -54,7 +55,18 @@ form a{
     margin-bottom: 15px;
 }
 
-.registration{
+.enter {
+    color: #155694;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #155694;
+}
+
+.registration {
     width: 400px;
     height: 115px;
     margin-top: 10px;
@@ -63,8 +75,15 @@ form a{
     border: 1px solid rgba(128, 128, 128, 0.4);
 }
 
-.registration a{
+.registration a {
     color: #68b5fa;
     text-decoration: none;
     font-weight: 600;
+    justify-content: center;
+    text-align: center;
+
+}
+
+p {
+    margin-top: 50px;
 }
