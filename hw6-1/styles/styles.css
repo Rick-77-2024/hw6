@@ -1,83 +1,21 @@
-body{
-    font-family: Arial, sans-serif;
+
+div.list-1>ul>li:nth-child(even) {
+    color: pink;
 }
 
-.form{
-    margin: 0 auto;
-    width: 25vw;
-    height: 71vh;
+div.list-2>ul>li:nth-child(odd) {
+    font-size: 22px;
 }
 
-/*--------login------*/
-.login{
-    height: 80%;
-    border: 1px solid rgba(128, 128, 128, 0.4);
+div.list-3>ul>li:nth-child(2n+4)::after {
+    content: "!";
 }
 
-.login, form{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+div.list-4>ul>li:last-of-type {
+    color: mediumpurple;
 }
 
-.login img{
-    width: 80%;
-}
-
-input[type="text"],
-input[type="password"]{
-    width: 78%;
-    padding: 3% 1%;
-    text-overflow: ellipsis;
-    margin-top: 10px;
-    box-sizing: border-box;
-}
-
-input[type="submit"]{
-    width: 78%;
-    height: 35px;
-    background-color: #68b5fa;
-    color: white;
-    border-radius: 8px;
-    border: none;
-    margin-top: 20px;
-}
-
-form span{
-    margin: 10px 0;
-    color: gray;
-}
-
-form p svg{
-    margin-bottom: -5px;
-}
-
-form p{
-    color: #155694;
-    margin: 15px 0;
-}
-
-form a{
-    color: #155694;
-    text-decoration: none;
-    margin-bottom: 15px;
-}
-
-/*--------registration ------------*/
-.registration{
-    height: 17%;
-    margin-top: 3%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(128, 128, 128, 0.4);
-}
-
-.registration a{
-    color: #68b5fa;
-    text-decoration: none;
-    font-weight: 600;
+div.list-5>ul>li::first-letter {
+    color: red;
+    font-size: 30px;
 }
