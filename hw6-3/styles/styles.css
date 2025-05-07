@@ -23,10 +23,6 @@ p {
     justify-content: center;
 }
 
-.login img{
-    width: 80%;
-}
-
 input[type="text"],
 input[type="password"]{
     width: 78%;
@@ -50,20 +46,6 @@ form span{
     margin: 10px 0;
     font-weight: 600;
     color: darkblue;
-}
-
-.face-svg {
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-form p svg{
-    margin-bottom: -5px;
-}
-
-form p{
-    color: #155694;
-    margin: 15px 0;
 }
 
 form a{
